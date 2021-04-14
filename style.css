@@ -1,7 +1,7 @@
 /* 
 Theme Name: Follow Andrew
 Text Domain: Follow Andrew
-Version: 1.0
+Version: 1.5
 Description: Fancy left sidebar theme
 Tags: left-sidebar, responsive, fancy
 Author: Tibor Toth
@@ -36,11 +36,11 @@ Author URI: https://tibortoth.ml
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
-    'Liberation Mono', 'Courier New', monospace;
+    "Liberation Mono", "Courier New", monospace;
   /* Font Sizes */
   --font-normal: 1em;
   --font-small: 0.8125rem;
@@ -362,7 +362,7 @@ h6 {
 }
 
 .content .blockquote {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   border-left: 2px solid var(--gray-dark);
   font-size: 1.5rem;
 }
@@ -631,7 +631,7 @@ div.comment:first-of-type {
 
 .comment-respond::after {
   clear: both;
-  content: '';
+  content: "";
   display: block;
 }
 
@@ -681,13 +681,13 @@ div.comment:first-of-type {
   display: block;
 }
 
-.comment-respond input[type='checkbox'] + label {
+.comment-respond input[type="checkbox"] + label {
   font-size: 1.5rem;
   line-height: 1.25;
 }
 
-.comment-respond input[type='text'],
-.comment-respond input[type='email'],
+.comment-respond input[type="text"],
+.comment-respond input[type="email"],
 .comment-respond textarea {
   margin-bottom: 0;
 }
