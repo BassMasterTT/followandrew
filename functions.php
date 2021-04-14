@@ -1,5 +1,11 @@
 <?php 
 
+/**
+ * Theme Functions.
+ * 
+ * @package Fallow Andrew
+ */
+
 
 function followandrew_theme_support(){
 // adds dynamic title tag support
