@@ -13,11 +13,13 @@ function followandrew_menus(){
         'primary' => "Desktop Primary Left Sidebar",
         'footer' => "Footer Menu Items"
     );
-
+  
     register_nav_menus($locations);
 }
 
 add_action('init', 'followandrew_menus');
+
+
 
 function followandrew_register_styles(){
 
